@@ -57,12 +57,10 @@ def get_hdu_ac_num(username):
         start_label="Problems Solved</td><td align=center>")
 
 def get_zsc_ac_num(username):
-    # username = raw_input(u"ZSC 用户名：")
+    # username = raw_input(u"HDU 用户名：")
     return get_ac_num(
-        url="http://acm.two.moe/JudgeOnline/userinfo.php?user=" + username,
-        start_label="status.php?user_id=",
-        end_label="</a>",
-        add = 12 + len(username))
+        url="http://210.38.224.114:808/JudgeOnline/userinfo.php?user=" + username,
+        start_label="jresult=4\">")
 
 def get_cf_rank(username):
     # username = raw_input(u"CF 用户名：")

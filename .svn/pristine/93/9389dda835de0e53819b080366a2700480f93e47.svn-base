@@ -224,10 +224,8 @@ a.pure-button-primary {
     line-height: 1em;
 }
 
-.pure-table {
+.table {
     margin: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
 }
 
 /*

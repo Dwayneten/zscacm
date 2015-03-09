@@ -8,14 +8,6 @@ app.debug = True
 def index():
   return render_template('/index.html')
 
-@app.route('/rank')
-def rank():
-  return render_template('/index.html', showRank = 1)
-
-@app.route('/about')
-def about():
-  return render_template('/index.html', showAbout = 1)
-
 @app.route('/query', methods=['GET'])
 def query_form():
     return render_template('/index.html')
@@ -38,14 +30,14 @@ def query():
         checkUsername = CF
     elif BC:
         checkUsername = BC
-    tPOJnum = int(get_poj_ac_num(POJ))
-    tHDUnum = int(get_hdu_ac_num(HDU))
-    tZSCnum = int(get_zsc_ac_num(ZSC))
-    # tCFnum = 
-    tCFrank = int(get_cf_rank(CF))
-    tCFmax = int(get_cf_max(CF))
-    tBCrank = int(get_bc_rank(BC))
-    tBCmax = int(get_bc_max(BC))
+    tPOJnum = get_poj_ac_num(POJ),
+    tHDUnum = get_hdu_ac_num(HDU),
+    tZSCnum = get_zsc_ac_num(ZSC),
+    # tCFnum = ,
+    tCFrank = get_cf_rank(CF),
+    tCFmax = get_cf_max(CF),
+    tBCrank = get_bc_rank(BC),
+    tBCmax = get_bc_max(BC),
     tTOLnum = tPOJnum + tHDUnum + tZSCnum
     return render_template('/index.html', username = checkUsername,
                            POJnum = tPOJnum,

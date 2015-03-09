@@ -105,24 +105,17 @@
                 <thead>
                     <tr>
                         <th>#</th>
-                        <th>Name</th>
-                        <th>POJ</th>
-                        <th>HDU</th>
-                        <th>ZSCOJ</th>
-                        <th>Codeforces</th>
-                        <th>Bestcoder</th>
-                        <th></th>
+                        <th>Make</th>
+                        <th>Model</th>
+                        <th>Year</th>
                     </tr>
                 </thead>
 
                 <tbody>
                     <tr class="pure-table-odd">
                         <td>1</td>
-                        <td>Dwayne</td>
+                        <td>Honda</td>
                         <td>Accord</td>
-                        <td>2009</td>
-                        <td>2009</td>
-                        <td>2009</td>
                         <td>2009</td>
                     </tr>
 

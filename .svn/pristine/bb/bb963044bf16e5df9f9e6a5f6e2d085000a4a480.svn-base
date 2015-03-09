@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 a:link {
+    text-decoration:none
     color: #337ab7;
-    text-decoration: none;
 }
 /*
  * -- BASE STYLES --
@@ -222,12 +222,6 @@ a.pure-button-primary {
 .footer {
     background: #111;
     line-height: 1em;
-}
-
-.pure-table {
-    margin: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
 }
 
 /*

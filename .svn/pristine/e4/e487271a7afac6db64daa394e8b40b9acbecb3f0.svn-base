@@ -29,7 +29,7 @@ def get_ac_num(url, start_label, end_label="<", loop=1, add=0):
         start_position = html.find(start_label, start_position)
         if start_position == -1:  # not found this user or page error
             # print "\t0"
-            return 0
+            return 65535
         start_position += len(start_label)
     start_position += add
     
@@ -60,9 +60,9 @@ def get_zsc_ac_num(username):
     # username = raw_input(u"ZSC 用户名：")
     return get_ac_num(
         url="http://acm.two.moe/JudgeOnline/userinfo.php?user=" + username,
-        start_label="status.php?user_id=",
+        start_label="<a href=\"status.php?user_id=" + username,
         end_label="</a>",
-        add = 12 + len(username))
+        add = 16)
 
 def get_cf_rank(username):
     # username = raw_input(u"CF 用户名：")

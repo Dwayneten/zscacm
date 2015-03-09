@@ -8,13 +8,9 @@ app.debug = True
 def index():
   return render_template('/index.html')
 
-@app.route('/rank')
-def rank():
-  return render_template('/index.html', showRank = 1)
-
 @app.route('/about')
 def about():
-  return render_template('/index.html', showAbout = 1)
+  return render_template('/index.html', showAbout = true)
 
 @app.route('/query', methods=['GET'])
 def query_form():
