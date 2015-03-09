@@ -101,9 +101,9 @@
                 </div>
             </div>
             {% elif showRank %}
-            <h2 class="is-center">
+            <h3 class="content-subhead">
                 Status of ZSC team.
-            </h2>
+            </h3>
             <table class="pure-table pure-table-horizontal">
                 <thead>
                     <tr>
@@ -230,9 +230,6 @@
                     </tr>
                 </tbody>
             </table>
-            <br>
-            <br>
-            <br>
             <script>
                 document.getElementById('yui_3_17_2_1_1425869924568_15').scrollIntoView()
             </script>

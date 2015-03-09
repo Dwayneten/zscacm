@@ -101,9 +101,6 @@
                 </div>
             </div>
             {% elif showRank %}
-            <h2 class="is-center">
-                Status of ZSC team.
-            </h2>
             <table class="pure-table pure-table-horizontal">
                 <thead>
                     <tr>
@@ -230,12 +227,6 @@
                     </tr>
                 </tbody>
             </table>
-            <br>
-            <br>
-            <br>
-            <script>
-                document.getElementById('yui_3_17_2_1_1425869924568_15').scrollIntoView()
-            </script>
             {% else %}
             <div class="content">
                 <h2 class="is-center"><br><br>Type your username of the OnlineJudge to count your solved problem number.</h2>

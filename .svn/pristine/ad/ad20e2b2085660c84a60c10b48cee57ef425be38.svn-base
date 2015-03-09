@@ -230,9 +230,6 @@ a.pure-button-primary {
     margin-bottom: 2em;
 }
 
-.pure-table-horizontal td {
-    text-align: center;
-}
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some

@@ -101,9 +101,6 @@
                 </div>
             </div>
             {% elif showRank %}
-            <h2 class="is-center">
-                Status of ZSC team.
-            </h2>
             <table class="pure-table pure-table-horizontal">
                 <thead>
                     <tr>
@@ -143,99 +140,47 @@
 
                     <tr class="pure-table-odd">
                         <td>3</td>
-                        <td>范潜鑫</td>
-                        <td>{{ POJ_3 }}</td>
-                        <td>{{ HDU_3 }}</td>
-                        <td>{{ ZSC_3 }}</td>
-                        <td>{{ TOL_3 }}</td>
-                        <td>{{ CF_3 }}</td>
-                        <td>{{ BC_3 }}</td>
+                        <td>Hyundai</td>
+                        <td>Elantra</td>
+                        <td>2010</td>
                     </tr>
 
                     <tr>
                         <td>4</td>
-                        <td>刘建宇</td>
-                        <td>{{ POJ_4 }}</td>
-                        <td>{{ HDU_4 }}</td>
-                        <td>{{ ZSC_4 }}</td>
-                        <td>{{ TOL_4 }}</td>
-                        <td>{{ CF_4 }}</td>
-                        <td>{{ BC_4 }}</td>
+                        <td>Ford</td>
+                        <td>Focus</td>
+                        <td>2008</td>
                     </tr>
 
                     <tr class="pure-table-odd">
                         <td>5</td>
-                        <td>颜郑明</td>
-                        <td>{{ POJ_5 }}</td>
-                        <td>{{ HDU_5 }}</td>
-                        <td>{{ ZSC_5 }}</td>
-                        <td>{{ TOL_5 }}</td>
-                        <td>{{ CF_5 }}</td>
-                        <td>{{ BC_5 }}</td>
+                        <td>Nissan</td>
+                        <td>Sentra</td>
+                        <td>2011</td>
                     </tr>
 
                     <tr>
                         <td>6</td>
-                        <td>刘荣辉</td>
-                        <td>{{ POJ_6 }}</td>
-                        <td>{{ HDU_6 }}</td>
-                        <td>{{ ZSC_6 }}</td>
-                        <td>{{ TOL_6 }}</td>
-                        <td>{{ CF_6 }}</td>
-                        <td>{{ BC_6 }}</td>
+                        <td>BMW</td>
+                        <td>M3</td>
+                        <td>2009</td>
                     </tr>
 
                     <tr class="pure-table-odd">
                         <td>7</td>
-                        <td>黄达鑫</td>
-                        <td>{{ POJ_7 }}</td>
-                        <td>{{ HDU_7 }}</td>
-                        <td>{{ ZSC_7 }}</td>
-                        <td>{{ TOL_7 }}</td>
-                        <td>{{ CF_7 }}</td>
-                        <td>{{ BC_7 }}</td>
+                        <td>Honda</td>
+                        <td>Civic</td>
+                        <td>2010</td>
                     </tr>
 
                     <tr>
                         <td>8</td>
-                        <td>石畅</td>
-                        <td>{{ POJ_8 }}</td>
-                        <td>{{ HDU_8 }}</td>
-                        <td>{{ ZSC_8 }}</td>
-                        <td>{{ TOL_8 }}</td>
-                        <td>{{ CF_8 }}</td>
-                        <td>{{ BC_8 }}</td>
-                    </tr>
-
-                    <tr>
-                        <td>9</td>
-                        <td>唐盛源</td>
-                        <td>{{ POJ_9 }}</td>
-                        <td>{{ HDU_9 }}</td>
-                        <td>{{ ZSC_9 }}</td>
-                        <td>{{ TOL_9 }}</td>
-                        <td>{{ CF_9 }}</td>
-                        <td>{{ BC_9 }}</td>
-                    </tr>
-
-                    <tr>
-                        <td>10</td>
-                        <td>林宏杰</td>
-                        <td>{{ POJ_10 }}</td>
-                        <td>{{ HDU_10 }}</td>
-                        <td>{{ ZSC_10 }}</td>
-                        <td>{{ TOL_10 }}</td>
-                        <td>{{ CF_10 }}</td>
-                        <td>{{ BC_10 }}</td>
+                        <td>Kia</td>
+                        <td>Soul</td>
+                        <td>2010</td>
                     </tr>
                 </tbody>
             </table>
-            <br>
-            <br>
-            <br>
-            <script>
-                document.getElementById('yui_3_17_2_1_1425869924568_15').scrollIntoView()
-            </script>
             {% else %}
             <div class="content">
                 <h2 class="is-center"><br><br>Type your username of the OnlineJudge to count your solved problem number.</h2>
