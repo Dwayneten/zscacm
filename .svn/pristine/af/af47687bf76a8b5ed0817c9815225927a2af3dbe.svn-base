@@ -207,7 +207,7 @@
                         <td>{{ BC_8 }}</td>
                     </tr>
 
-                    <tr class="pure-table-odd">
+                    <tr>
                         <td>9</td>
                         <td>唐盛源</td>
                         <td>{{ POJ_9 }}</td>
@@ -220,7 +220,7 @@
 
                     <tr>
                         <td>10</td>
-                        <td>林弘杰</td>
+                        <td>林宏杰</td>
                         <td>{{ POJ_10 }}</td>
                         <td>{{ HDU_10 }}</td>
                         <td>{{ ZSC_10 }}</td>

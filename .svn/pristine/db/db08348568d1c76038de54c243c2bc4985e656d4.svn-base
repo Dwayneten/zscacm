@@ -24,36 +24,17 @@ def rank():
   hdu3 = get_hdu_ac_num('T47X')
   zsc3 = get_zsc_ac_num('2013031102013')
   tol3 = int(poj3) + int(hdu3) + int(zsc3)
-    
-  poj4 = get_poj_ac_num('2013031102007')
-  hdu4 = get_hdu_ac_num('2013031102007')
-  zsc4 = get_zsc_ac_num('2013031102007')
-  tol4 = int(poj4) + int(hdu4) + int(zsc4)
+
   
   poj5 = get_poj_ac_num('2013031001011')
   hdu5 = get_hdu_ac_num('2013031001011')
   zsc5 = get_zsc_ac_num('2013031001011')
   tol5 = int(poj5) + int(hdu5) + int(zsc5)
-    
-  poj6 = get_poj_ac_num('862044553')
-  hdu6 = get_hdu_ac_num('862044553')
-  zsc6 = get_zsc_ac_num('2013031101022')
-  tol6 = int(poj6) + int(hdu6) + int(zsc6)
 
-  poj7 = get_poj_ac_num('491561501')
+  poj7 = get_poj_ac_num('2013030402042')
   hdu7 = get_hdu_ac_num('2013030402042')
   zsc7 = get_zsc_ac_num('2013030402042')
   tol7 = int(poj7) + int(hdu7) + int(zsc7)
-    
-  poj8 = get_poj_ac_num('')
-  hdu8 = get_hdu_ac_num('')
-  zsc8 = get_zsc_ac_num('2013031001009')
-  tol8 = int(poj8) + int(hdu8) + int(zsc8)
-    
-  poj9 = get_poj_ac_num('2013030402008')
-  hdu9 = get_hdu_ac_num('2013030402008')
-  zsc9 = get_zsc_ac_num('2013030402008')
-  tol9 = int(poj9) + int(hdu9) + int(zsc9)
 
   poj10 = get_poj_ac_num('2013031102067')
   hdu10 = get_hdu_ac_num('2013031102067')
@@ -81,13 +62,6 @@ def rank():
                         TOL_3 = tol3,
                         CF_3 = get_cf_rank('T47X'),
                         BC_3 = get_bc_rank('T47X'),
-                        
-                        POJ_4 = poj4,
-                        HDU_4 = hdu4,
-                        ZSC_4 = zsc4,
-                        TOL_4 = tol4,
-                        CF_4 = get_cf_rank('2013031102007'),
-                        BC_4 = get_bc_rank('2013031102007'),
 
                         POJ_5 = poj5,
                         HDU_5 = hdu5,
@@ -95,13 +69,6 @@ def rank():
                         TOL_5 = tol5,
                         CF_5 = get_cf_rank('2013031001011'),
                         BC_5 = get_bc_rank('2013031001011'),
-                        
-                        POJ_6 = poj6,
-                        HDU_6 = hdu6,
-                        ZSC_6 = zsc6,
-                        TOL_6 = tol6,
-                        CF_6 = get_cf_rank('2013031101022'),
-                        BC_6 = get_bc_rank('2013031101022'),
 
                         POJ_7 = poj7,
                         HDU_7 = hdu7,
@@ -109,20 +76,6 @@ def rank():
                         TOL_7 = tol7,
                         CF_7 = get_cf_rank('2013030402042'),
                         BC_7 = get_bc_rank('2013030402042'),
-                        
-                        POJ_8 = poj8,
-                        HDU_8 = hdu8,
-                        ZSC_8 = zsc8,
-                        TOL_8 = tol8,
-                        CF_8 = get_cf_rank('ZSC2013031001009'),
-                        BC_8 = get_bc_rank('2013031001009'),
-                        
-                        POJ_9 = poj9,
-                        HDU_9 = hdu9,
-                        ZSC_9 = zsc9,
-                        TOL_9 = tol9,
-                        CF_9 = get_cf_rank('2013030402008'),
-                        BC_9 = get_bc_rank('2013030402008'),
 
                         POJ_10 = poj10,
                         HDU_10 = hdu10,

@@ -207,7 +207,7 @@
                         <td>{{ BC_8 }}</td>
                     </tr>
 
-                    <tr class="pure-table-odd">
+                    <tr>
                         <td>9</td>
                         <td>唐盛源</td>
                         <td>{{ POJ_9 }}</td>
