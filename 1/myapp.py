@@ -45,8 +45,8 @@ def rank():
   zsc7 = get_zsc_ac_num('2013030402042')
   tol7 = int(poj7) + int(hdu7) + int(zsc7)
     
-  poj8 = get_poj_ac_num('')
-  hdu8 = get_hdu_ac_num('')
+  poj8 = get_poj_ac_num('midsummer')
+  hdu8 = get_hdu_ac_num('midsummer')
   zsc8 = get_zsc_ac_num('2013031001009')
   tol8 = int(poj8) + int(hdu8) + int(zsc8)
     
